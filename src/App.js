@@ -17,6 +17,11 @@ function App() {
         >
           Learn React
         </a>
+        <main>
+          <input placeholder="Email" type="email"/>
+          <input placeholder="Password" type="password"/>
+          <input type="submit" value="Login"/>
+        </main>
       </header>
     </div>
   );
