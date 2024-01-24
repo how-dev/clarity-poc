@@ -22,6 +22,7 @@ function App() {
           <input placeholder="Password" type="password"/>
           <input type="submit" value="Login"/>
         </main>
+        <button onClick={() => {return 1/0}}>Gerar erro</button>
       </header>
     </div>
   );
